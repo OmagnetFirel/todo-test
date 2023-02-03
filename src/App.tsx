@@ -1,4 +1,5 @@
 import CriarTarefa from "./components/CreateTask";
+import TaskList from "./components/TaskList";
 import "./app.scss"
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
         <h1>Study Test</h1>
       </div>
       <CriarTarefa />
+      <TaskList />
     </div>
   )
 }

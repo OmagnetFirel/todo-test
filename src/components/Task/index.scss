@@ -1,0 +1,21 @@
+.taskWrapper{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    column-gap: 16px;
+    padding: 0px;
+    margin: 0px;
+    span{
+        flex: 1;
+    }
+
+    &.completed{
+
+        span{
+            text-decoration: line-through;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskList should render correctly 1`] = `
+<ul>
+  <li>
+    sexo
+  </li>
+  <li>
+    anal
+  </li>
+  <li>
+    oral
+  </li>
+  <li>
+    vaginal
+  </li>
+</ul>
+`;
